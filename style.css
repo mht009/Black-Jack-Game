@@ -1,0 +1,64 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("poker-table-background-green-color_47243-1068.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+h1{
+    color: goldenrod;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+#message-el{
+    font-style: italic;
+}
+
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;       
+    color: #174d00;
+    width: 250px;
+    background: goldenrod;
+    border: none;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 3px;
+    font-size: xx-large;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#check{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.button-ani {
+    padding: 15px 25px;
+    /* font-size: 24px; */
+    /* text-align: center; */
+    cursor: pointer;
+    /* outline: none; */
+    /* color: #fff; */
+    /* background-color: #04AA6D; */
+    border: none;
+    /* border-radius: 15px; */
+    // box-shadow: 0 9px #999;
+}
+
+.button-ani:hover {
+    background-color: #ffc907
+}
+
+.button-ani:active {
+    background-color: #bfff00;
+    box-shadow: 0 1px #666;
+    transform: translateY(1pt);
+}
+
